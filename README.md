@@ -8,9 +8,9 @@
 
 # Frontend em ReactJS para o desafio de certificação do Bootcamp GoStack da [Roketseat](http://rocketseat.com.br) _(com alterações)_
 
-## Aplicação: Frontend do Gympoint
+## A aplicação de EXEMPLO/ESTUDO [RealLive](https://gympoint.mourabraz.com)
 
-O frontend utiliza a API do Gympoint ([pasta backend](../backend))
+O frontend utiliza a API do Gympoint ([API](https://github.com/mourabraz/gympoint-backend))
 
 1. Esta aplicação será utilizada por Administradores da academia.
 
@@ -28,16 +28,16 @@ O frontend utiliza a API do Gympoint ([pasta backend](../backend))
 - Visualização/Edição: Visualiza dados do aluno (apenas as entradas efetuadas nos últimos 84 dias) e possibilita a edição do cadastro.
 
 <div align="center" style="margin: 25px 0">
-  <img style="display: inline-block; margin: 10px" width="300" src="./imgs/login_blank.png">
-  <img style="display: inline-block; margin: 10px" width="300" src="./imgs/login_error.png">
-  <img style="display: inline-block; margin: 10px" width="300" src="./imgs/entradas-dashboard.png">
-  <img style="display: inline-block; margin: 10px" width="300" src="./imgs/horas-dashboard.png">
-  <img style="display: inline-block; margin: 10px" width="300" src="./imgs/birthdays-dashboard.png">
-  <img style="display: inline-block; margin: 10px" width="300" src="./imgs/alunos_list.png">
-  <img style="display: inline-block; margin: 10px" width="300" src="./imgs/alunos_cadastro.png">
-  <img style="display: inline-block; margin: 10px" width="300" src="./imgs/alunos_cadastro_error.png">
-  <img style="display: inline-block; margin: 10px" width="300" src="./imgs/alunos_edit-view.png">
-  <img style="display: inline-block; margin: 10px" width="300" src="./imgs/matriculas_list.png">
+  <img style="display: inline-block; margin: 10px" width="600" src="./imgs/login_blank.png">
+  <img style="display: inline-block; margin: 10px" width="600" src="./imgs/login_error.png">
+  <img style="display: inline-block; margin: 10px" width="600" src="./imgs/entradas-dashboard.png">
+  <img style="display: inline-block; margin: 10px" width="600" src="./imgs/horas-dashboard.png">
+  <img style="display: inline-block; margin: 10px" width="600" src="./imgs/birthdays-dashboard.png">
+  <img style="display: inline-block; margin: 10px" width="600" src="./imgs/alunos_list.png">
+  <img style="display: inline-block; margin: 10px" width="600" src="./imgs/alunos_cadastro.png">
+  <img style="display: inline-block; margin: 10px" width="600" src="./imgs/alunos_cadastro_error.png">
+  <img style="display: inline-block; margin: 10px" width="600" src="./imgs/alunos_edit-view.png">
+  <img style="display: inline-block; margin: 10px" width="600" src="./imgs/matriculas_list.png">
 </div>
 
 - O cadastro de alunos foi implementado usando um modal, enquanto a edição de um aluno abre uma nova página. Esta página de edição recebe os dados do estudante pela rota, enquanto realiza uma busca à API para apresentar dados extras sobre o aluno. A opção de passar o aluno no state da rota teve como objetivo o treino.
