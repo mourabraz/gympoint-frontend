@@ -17,7 +17,7 @@ import HelpOrder from '~/pages/HelpOrder';
 export default function Routes() {
   return (
     <Switch>
-      <Route path="/" exact component={Home} />
+      <Route path="/" exact component={Home} isHome />
 
       <Route path="/login" component={SignIn} />
 

@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 import logoLeft from '~/assets/logo/logo-l@2x.png';
 import logoRight from '~/assets/logo/logo-r@2x.png';
-import ImgDashboardGif from '../../assets/gifs/1.gif';
-import ImgAlunosGif from '../../assets/gifs/2.gif';
-import ImgMatriculasGif from '../../assets/gifs/3.gif';
+import ImgDashboardGif from '~/assets/gifs/1.gif';
+import ImgAlunosGif from '~/assets/gifs/2.gif';
+import ImgMatriculasGif from '~/assets/gifs/3.gif';
 
 import {
   Container,
