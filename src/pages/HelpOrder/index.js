@@ -6,6 +6,10 @@ export default function HelpOrder() {
   return (
     <Content>
       <h1>Lista de Pedidos de auxílio</h1>
+
+      <p>
+        <i>não implementado....</i>
+      </p>
     </Content>
   );
 }

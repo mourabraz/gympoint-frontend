@@ -11,6 +11,10 @@ export default function RouteWrapper({
   isPrivate,
   ...rest
 }) {
+  if (Component.name === 'Home') {
+    return <Route {...rest} render={props => <Component {...props} />} />;
+  }
+
   const { signed } = store.getState().auth;
 
   if (!signed && isPrivate) {
